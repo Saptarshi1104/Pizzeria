@@ -17,7 +17,7 @@ var item=document.getElementById("add_item").value;
 list_of_pizzas.sort();
 htmldata="<section class='cards'>"
 for(var i=0;i<list_of_pizzas.length;i++){
-htmldata=htmldata+'<div class="card">'+'<img src="images/pizzaImg.png" />'+list_of_pizzas[i]+'</div>'
+htmldata=htmldata+'<div class="card">'+'<img src="pizzaImg.png" />'+list_of_pizzas[i]+'</div>'
 }
 htmldata=htmldata+"</section>"
 document.getElementById("display_addedmenu").innerHTML = htmldata;
